@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="norton.animademo.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_type_evaluator_ball"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TypeEvaluator_Ball" />
+
+        <Button
+            android:id="@+id/btn_interpolator_ball"
+            android:layout_below="@+id/btn_type_evaluator_ball"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Interpolator_Ball" />
+
+        <Button
+            android:id="@+id/btn_rotation_ball"
+            android:layout_below="@+id/btn_interpolator_ball"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rotation_Ball" />
+
+        <Button
+            android:id="@+id/btn_Dropout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_rotation_ball"
+            android:text="Dropout" />
+
+        <Button
+            android:id="@+id/btn_bezier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_Dropout"
+            android:text="bezier" />
+
+
+    </RelativeLayout>
+</ScrollView>
