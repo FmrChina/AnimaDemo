@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package norton.animademo.typeevaluator;
+package norton.animademo.bezier;
 
 import android.animation.TypeEvaluator;
 import android.graphics.PointF;

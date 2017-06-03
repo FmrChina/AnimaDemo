@@ -1,4 +1,4 @@
-package norton.animademo.weidget;
+package norton.animademo.bezier;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

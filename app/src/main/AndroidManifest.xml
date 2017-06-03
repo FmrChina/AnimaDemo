@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="norton.animademo">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name=".App"
         android:allowBackup="true"
@@ -23,7 +25,12 @@
         <activity android:name=".bezier.ShopingCarActivity" />
         <activity android:name=".bezier.BubbingActivity" />
         <activity android:name=".objball.BallInterpolatorActivity" />
-        <activity android:name=".objball.BallTypeEvaluatorActivity"></activity>
+        <activity android:name=".objball.BallTypeEvaluatorActivity" />
+        <activity android:name=".viewpager.ViewPagerActivity" />
+        <activity android:name=".activitytransformer.OneActivity" />
+        <activity android:name=".activitytransformer.TwoActivity" />
+        <activity android:name=".activitytransformer.ThreeActivity" />
+        <activity android:name=".fragmenttransformer.FragmentTransformerActivity"></activity>
     </application>
 
 </manifest>

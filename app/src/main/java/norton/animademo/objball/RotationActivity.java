@@ -67,19 +67,19 @@ public class RotationActivity extends AppCompatActivity {
         ObjectAnimator ballAnim2 = ObjectAnimator.ofFloat(llPointCircle2,
                 "rotation", 0, 360);
         ballAnim2.setStartDelay(150);
-        ballAnim2.setDuration(2000 + 150);
+        ballAnim2.setDuration(2000 );
         ballAnim2.setInterpolator(new AccelerateDecelerateInterpolator());
 
         ObjectAnimator ballAnim3 = ObjectAnimator.ofFloat(llPointCircle3,
                 "rotation", 0, 360);
         ballAnim3.setStartDelay(2 * 150);
-        ballAnim3.setDuration(2000 + 2 * 150);
+        ballAnim3.setDuration(2000 );
         ballAnim3.setInterpolator(new AccelerateDecelerateInterpolator());
 
         ObjectAnimator ballAnim4 = ObjectAnimator.ofFloat(llPointCircle4,
                 "rotation", 0, 360);
         ballAnim4.setStartDelay(3 * 150);
-        ballAnim4.setDuration(2000 + 3 * 150);
+        ballAnim4.setDuration(2000 );
         ballAnim4.setInterpolator(new AccelerateDecelerateInterpolator());
 
         AnimatorSet animatorSet = new AnimatorSet();

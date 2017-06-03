@@ -14,7 +14,6 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import norton.animademo.R;
-import norton.animademo.typeevaluator.BounceEaseOut;
 
 public class ViewAnimDemoActivity extends AppCompatActivity {
 

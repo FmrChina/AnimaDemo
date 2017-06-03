@@ -9,7 +9,6 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import norton.animademo.R;
-import norton.animademo.weidget.BubbingLayout;
 
 public class BubbingActivity extends AppCompatActivity {
 

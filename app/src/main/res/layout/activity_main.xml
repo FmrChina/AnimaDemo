@@ -44,6 +44,28 @@
             android:layout_below="@+id/btn_Dropout"
             android:text="bezier" />
 
+        <Button
+            android:id="@+id/btn_viewpager_transformer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_Dropout"
+            android:text="viewpager" />
+
+        <Button
+            android:id="@+id/btn_activity_transformer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_Dropout"
+            android:text="activity" />
+
+        <Button
+            android:id="@+id/btn_fragment_transformer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_activity_transformer"
+            android:text="Fragment" />
+
+
 
     </RelativeLayout>
 </ScrollView>

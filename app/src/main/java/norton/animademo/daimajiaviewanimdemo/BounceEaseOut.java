@@ -1,4 +1,4 @@
-package norton.animademo.typeevaluator;
+package norton.animademo.daimajiaviewanimdemo;
 
 import android.animation.TypeEvaluator;
 

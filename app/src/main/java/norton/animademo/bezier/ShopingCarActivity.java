@@ -17,7 +17,6 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import norton.animademo.R;
 import norton.animademo.adapter.ShoppingCaradpater;
-import norton.animademo.weidget.BezierPointView;
 
 public class ShopingCarActivity extends AppCompatActivity  implements ShoppingCaradpater.onItemClickListenter {
 

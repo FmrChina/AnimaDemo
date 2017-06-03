@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package norton.animademo.weidget;
+package norton.animademo.bezier;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -37,7 +37,6 @@ import android.widget.RelativeLayout;
 import java.util.Random;
 
 import norton.animademo.R;
-import norton.animademo.typeevaluator.HeartBezierEvaluator;
 
 
 /**
